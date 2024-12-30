@@ -1,0 +1,26 @@
+[project]
+name = "paper-kg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "adapters>=1.0.1",
+    "chromadb>=0.5.23",
+    "datasets==2.21.0",
+    "dspy>=2.5.43",
+    "matplotlib>=3.10.0",
+    "neo4j>=5.27.0",
+    "networkx>=3.4.2",
+    "orkg>=0.21.3",
+    "pandas>=2.2.3",
+    "rich>=13.9.4",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+    "transformers>=4.45.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
